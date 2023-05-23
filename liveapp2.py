@@ -42,10 +42,10 @@ def main():
             if dustbins != 'too close!!':
                 
                 num=int(dustbins[:-2])
-                if num>=30:
+                if num>=18:
                     Title2.header("Dustbin is at safe levels")
                     imgg.image('6.png',width=380)
-                elif(num<=29):
+                elif(num<=17):
                     Title2.header("Dustbin is almost full")
                     imgg.image('8.png',width=380)
                     
